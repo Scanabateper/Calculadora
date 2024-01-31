@@ -6,7 +6,7 @@ public class Menu {
     /**
      * El menu de la calculadora, en el que hay metodos que usa el main.
      *
-     * @author Ane Goikuria
+     * @author Sofia
      * @version 23.9.2005
      */
     

@@ -15,8 +15,8 @@ public class Operaciones{
     /**
 	    * Constructor: 
 	    * @param valor1: el numero al que vamos a restar
-	    * @param valor2: el numero que restamos al valor 1
-	    * @return resultado: el resultado de la resta de los dos numeros
+	    * @param valor2: el numero que restamos 
+	    * @return resultado: el resultado 
 	    */
     public int restar (int valor1, int valor2){
         int numero;
@@ -28,7 +28,7 @@ public class Operaciones{
 	    * Constructor: 
 	    * @param valor1: el numero que vamos a multiplicar
 	    * @param valor2: el otro numero que vamos a multiplicar
-	    * @return resultado: el resultado de la multiplicacion
+	    * @return resultado: el resultado 
 	    */
     public int multiplicar (int valor1, int valor2){
         int numero;
@@ -40,7 +40,7 @@ public class Operaciones{
 	    * Constructor: 
 	    * @param valor1: el numero que vamos a dividir
 	    * @param valor2: el numero con el que vamos a dividir el valor 1
-	    * @return resultado: el resultado de la division
+	    * @return resultado: el resultado 
 	    */
     public int dividir (int valor1, int valor2){
         int numero;
@@ -52,7 +52,7 @@ public class Operaciones{
 	    * Constructor: 
 	    * @param valor1: el numero que vamos a dividir
 	    * @param valor2: el numero con el que vamos a dividir el valor 1
-	    * @return resultado: el resto de la division que hemos hecho
+	    * @return resultado: el resto de la division 
 	    */
     public int resto (int valor1, int valor2){
         int numero;

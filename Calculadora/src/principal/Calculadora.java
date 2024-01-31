@@ -16,7 +16,7 @@ public class Calculadora {
 		/**
 		 * El main en el que se invocan los metodos.
 		 *
-		 * @author Ane Goikuria
+		 * @author Sofia
 		 * @version 23.9.2005
 		 */
 
@@ -33,7 +33,8 @@ public class Calculadora {
 		
 		try {
 			fileHandler=new FileHandler("./logs/ficheroLog.log", true);
-			LOGGER.addHandler(fileHandler);
+			LOGGER.addHandler(fileHandler);		
+			fileHandler.setLevel(Level.ALL);
 		}catch(SecurityException e) {
 			e.printStackTrace();
 		}catch(IOException e) {
